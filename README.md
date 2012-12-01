@@ -18,10 +18,13 @@ expand on the project to control something more exciting than 3 leds.
 Please note that this code is fairly old and has some processing dependencies that
 might be hard to track down.
 
-https://github.com/pardo-bsso/processing-arduino
-Processing library to interact with arduino using Firmata.
-This fork fixes the error
 
-    Exception in thread "Animation Thread" java.lang.IllegalAccessError: tried to access class processing.core.PApplet$RegisteredMethods from class cc.arduino.Arduino$SerialProxy
+Processing library to interact with arduino using Firmata.
+If you get this error:
+
+    Exception in thread "Animation Thread"...
+
+See this repo:
+https://github.com/pardo-bsso/processing-arduino
 
 
